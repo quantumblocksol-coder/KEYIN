@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #0a0f1f, #000);
+  color: #fff;
+}
+
+/* HERO */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.coin {
+  width: 180px;
+  animation: spin 12s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.hero h1 {
+  font-size: 4rem;
+  color: gold;
+}
+
+.hero p {
+  margin: 10px 0 20px;
+  opacity: 0.85;
+}
+
+/* BUTTONS */
+.btn {
+  padding: 12px 26px;
+  border-radius: 30px;
+  text-decoration: none;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.primary {
+  background: gold;
+  color: black;
+}
+
+.secondary {
+  border: 1px solid gold;
+  color: gold;
+}
+
+/* SECTIONS */
+section {
+  padding: 80px 12%;
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  background: #0b1228;
+}
+
+.stat-box h3 {
+  color: gold;
+}
+
+/* TOKEN LIST */
+.tokenomics ul {
+  list-style: none;
+}
+
+.tokenomics li {
+  margin: 10px 0;
+}
+
+/* ROADMAP */
+.roadmap-step {
+  background: #0c1433;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 12px;
+  max-width: 400px;
+}
+
+/* FOOTER */
+footer {
+  padding: 20px;
+  background: black;
+  opacity: 0.7;
+  font-size: 14px;
+}
